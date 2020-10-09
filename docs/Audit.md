@@ -46,3 +46,10 @@ Our application does not use 58% of the code it ships. While the absolute value 
 
 ## Comparison
 
+| Metric | Our site | Competitor |
+| ------ | -------- | ---------- |
+| First Contentful Paint | 1.6s | 2.4s |
+| Time to Interactive | 1.6s | 9.9s |
+| Resource fetching | Non-Blocking (Parallel) | Blocking |
+| Unused Code | 16.9KB | 1.1MB |
+| Features | Simple ToDo functionality | ToDo functionality, online storage, multiple lists, ads, and more |
