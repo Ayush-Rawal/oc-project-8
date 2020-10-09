@@ -211,6 +211,7 @@ describe('controller', function () {
 	describe('new todo', function () {
 		it('should add a new todo to the model', function () {
 			setUpModel([])
+			subject.setView('');
 
 			let title = "str str"
 			subject.addItem(title)
