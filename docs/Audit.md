@@ -1,6 +1,6 @@
 # Performance Audit
 
-Performance Audit of our website and comparison with the competitor website([](todolistme.net)). For the purpose of this audit the website has been hosted at https://gallant-kilby-6d478e.netlify.app/
+Performance Audit of our website and comparison with the competitor website([](todolistme.net)). For the purpose of this audit the website has been hosted at [](https://gallant-kilby-6d478e.netlify.app/)
 
 ## Methodology
 The audit is done using the chrome developer tools and Google's light house. From the developer tools, we primarily use the network tab, the performance tab and the code coverage. Lighthouse is a tool by google that measures key metrics like First Contentful Paint, Time to Interactive, and more, to give a score out of 100 and recommendations for improving performance.
@@ -12,8 +12,14 @@ The audit is done using the chrome developer tools and Google's light house. Fro
 ![image](../img/comp-lighthouse.png)
 The site takes a significant amount of time to load. The First Contentful Paint happens at 2.4s which is beyond the recommended 2s. It takes the site 7 more seconds to become compeletely interactive which is jarring to the user experience
 
+#### Without Ads
+![image](../img/comp-woads-browser-metrics.png)
+A significant amout of performance detriment occurs due to the ads the site has. Without the ads the site's scripting time goes down significantly
+
 ### Network usage
-![image](../img/comp-network.png)
+![image](../img/comp-network-1.png)
+![image](../img/comp-network-2.png)
+![image](../img/comp-network-3.png)
 Resources are loaded in a blocking waterfall way, the requests for other resources are made only when one resource is fetched. The site ships a total of 1.4MB over the network
 
 ### Code coverage
