@@ -22,7 +22,7 @@ The site does not use 58% of the code it ships, a total of 1.1MB which is a very
 
 ### Memory Usage
 ![image](../img/comp-memory.png)
-The site uses around 18.5MB of heap memory while running.
+The site uses around 14MB of heap memory while running. The peak memory usage goes upto 18.5MB during execution
 
 ## Our Audit
 
@@ -61,5 +61,5 @@ The site uses around 1.1MB of heap memory while running.
 | Resource fetching | Non-Blocking (Parallel) | Blocking |
 | Bytes transferred over network | 16.6KB | 1.4MB |
 | Unused Code | 16.9KB | 1.1MB |
-| Memory Usage | 1.1MB | 18.5MB |
+| Memory Usage | 1.1MB | 14-18.5MB |
 | Features | Simple ToDo functionality | ToDo functionality, online storage, multiple lists, ads, and more |
